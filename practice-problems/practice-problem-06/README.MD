@@ -21,13 +21,14 @@ You also have a Dockerfile for nginx with the following contents:
 FROM nginx:1.19
 COPY nginx.conf /etc/nginx/nginx.conf
 ```
-However, when you run the docker-compose build and docker-compose up commands, you get an error that says "nginx: [emerg] host not found in upstream".
+However, when you run the docker-compose build and docker-compose up commands, you get an error.
 
 ## Challenge
 
 1. Resolve any `docker build` errors
+1. Resolve any `docker-compose up -d` errors
 1. Successfully bring up your application with `docker-compose up -d`
-
+1. Be able to visit your application with `localhost:port`
 
 ## Bonus Challenge
 
