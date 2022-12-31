@@ -1,0 +1,16 @@
+version: '3'
+services:
+  nodejs-app:
+    build:
+      context: .
+      dockerfile: ./nodejs.dockerfile
+    privileged: true
+    user: root
+    container_name: nodejs-app
+  nginx-app:
+    build: 
+      context: .
+      dockerfile: ./nginx.dockerfile
+    privileged: true
+    user: nginx
+    container_name: nginx-app
