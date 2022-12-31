@@ -8,7 +8,7 @@ services:
     user: root
     container_name: nodejs-app
   nginx-app:
-    build: ./nginx.dockerfile
+    build: 
       context: .
       dockerfile: ./nginx.dockerfile
     privileged: true
