@@ -14,4 +14,11 @@ CMD ["npm", "start"]
 ```
 However, when you run the docker build and docker run commands, you get an error that says "Error: Cannot find module './build/server.js'".
 
+**Challenge**:
 
+1. Resolve the docker build command 
+1. Be able to visit the simple-react-app locally in your web-browser.
+
+**Hint:**
+
+You'll need to create a simple react app.
