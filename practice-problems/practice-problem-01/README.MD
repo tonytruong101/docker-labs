@@ -12,7 +12,7 @@ COPY . /app
 EXPOSE 3000
 CMD ["npm", "start"]
 ```
-However, when you run the docker build and docker run commands, you get an error that says "Error: Cannot find module './build/server.js'".
+However, when you run the docker build and docker run commands, you get an error that says 'failed to compute cache key: "/package-lock.json" not found: not found'".
 
 **Challenge**:
 
