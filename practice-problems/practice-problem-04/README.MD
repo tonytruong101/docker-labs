@@ -36,19 +36,19 @@ services:
       POSTGRES_PASSWORD: postgres
 ```
 
-However, after creating your new react app with `docker build` , when you execute `docker run` to start your new React Web application to validate your application connection to the PostgresDB Docker Container with `docker exec <container_name> bash -c pg_isready -h 0.0.0.0 -U postgres -d practice_test_db` it comes back with the following error:
+However, when you execute `docker run` to start your new React Web application, then trying to validate your application connection to the PostgresDB Docker Container with `docker exec <container_name> bash -c pg_isready -h 0.0.0.0 -U postgres -d practice_test_db` you see the command accepts the incoming test connection but returns the following error:
 
-**0.0.0.0:5432 - rejecting connections**
+**practice_test_db doesn't exist**
 
 ## Challenge
 
 1. Resolve any `docker build` errors
 1. Resolve any `docker run` errors.
-1. Resolve `rejecting connections` error
+1. Resolve `practice_test_db doesn't exist` error.
 
 **Hint:**
 
-1. You'll want to inspect the PostgresDB container.
+1. You'll want to inspect the PostgresDB container
 1. You'll want to inspect your react Dockerfile.
 
 

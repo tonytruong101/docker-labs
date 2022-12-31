@@ -1,0 +1,12 @@
+version: '3'
+services:
+  postgres:
+    image: postgis/postgis
+    container_name: postgres-database-container
+    ports:
+            - 5432:5432
+    restart: always
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
