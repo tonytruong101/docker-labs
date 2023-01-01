@@ -29,7 +29,7 @@ services:
       - 3000:3000
 ```
 
-However, when you run the docker build and docker run commands, you get an error that says 
+However, after you run `docker-compose up -d` then you run the docker build and docker run commands, you get an error that says 
 
 **"Error: listen EADDRINUSE: address already in use :::3000"**.
 
