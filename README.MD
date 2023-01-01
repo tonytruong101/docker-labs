@@ -1,6 +1,6 @@
 ## Overview
 
-Hello! Welcome to my repo on Docker Practice Problems. This will be a place for me to create and come up with different problemsets that you must solve using Docker. This is meant to give you a similar experience to some of the day to day issues you may face working within a devops capacity.
+Hello! Welcome to my repo on Docker Practice Problems. This will be a place for me to create and come up with different problemsets that you must solve using Docker. This is meant to give you a hands-on experience thinking about different ways Docker could be used in many different applications.
 
 ## Quick-Start
 
